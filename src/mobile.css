@@ -1,0 +1,136 @@
+@media(max-width:500px) {
+  .highlight, .about-content{
+    width: 405px;
+    font-size: 14px;
+  }
+
+  textarea{
+    width: 360px;
+  }
+
+  .nav{
+    flex-direction: row;
+    font-size: 14px;
+}
+  .footer{
+    display: block;
+  }
+  .about-ft h6{
+    text-align: center;
+  }
+  .services{
+    flex-direction: column;
+  }
+  .reserve-sect{
+    grid-template-columns: 1fr;
+  }
+  #map{
+    display: block;
+  }
+
+  .gallery, .gallery-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .abt-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .abt-img img{
+    width: 100%;
+  }  
+
+  .highlight-img{
+    display: flex;
+  }
+  .highlight-img img{
+    width: 35%;
+  }
+  .menu-container {
+    max-width: 1050px;
+    margin: auto;
+    padding: 0 0.2rem;
+  }
+  .review-bg > div h1{
+    font-size: 30px;
+  }
+  .review-bg > div .abt-menu-p{
+    font-size: 12px;
+  }
+
+  .menu-body{
+    background: white;
+    border-radius: 10px;
+    margin-right: 93%;
+    width: 380px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: 1;
+    margin: auto;
+  }
+  .menu-list .card-title, .menu-list .card-title, .menu-list p{
+    font-size: 10px;
+  }
+  .header-body{
+    margin: 8px auto;
+    background: rgb(235, 134, 26);
+    width: 150px;
+    height: 20px;
+    
+  }
+  .header-body > .div1 {
+    width: 20px;
+    height: 20px;
+  }
+  .header-body h3 {
+    align-self: center;
+    font-size: 12px;
+  }
+  .div1 {
+  margin-right: 5px
+  }
+  .div2{
+    width: 20px;
+    height: 20px;
+  } 
+}
+
+@media(max-width:400px) {
+ 
+  
+  .highlight, .about-content{
+    width: 370px;
+    font-size: 14px;
+  }
+
+  textarea{
+    width: 350px;
+  }
+  .menu-bg1{
+    height: 168vh;
+    background: rgb(235, 134, 26);
+    max-width: 100%;
+  }
+  .menu-bg2{
+    height: 168vh;
+    background: #000;
+    max-width: 50%;
+    position: relative;
+  }
+  .menu-body{
+    background: white;
+    border-radius: 10px;
+    margin-right: 93%;
+    width: 340px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    z-index: 1;
+    margin: auto;
+  }
+  .menu-list .card-title, .menu-list .card-title, .menu-list p{
+    font-size: 10px;
+  }
+
+}
