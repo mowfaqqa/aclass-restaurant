@@ -38,7 +38,7 @@ render() {
             <button type="submit" class="btn btn-orange">Send</button>
             </form>
           </div>
-          <div className="col-sm-12 col-lg-5 contact-info text-orange text-center">
+          <div className="col-sm-12 col-lg-5 contact-info text-orange text-center p-4">
             <div className="d-flex justify-content-evenly">
             <i className="fas fa-home fa-2x" aria-hidden="true"/>
             <p className="text-center">Within A-class Park, Plot No.102 A00, Along Kashim Ibrahim Way,Maitama, Abuja</p>
@@ -48,7 +48,7 @@ render() {
             <p className="text-center">+2348175555501</p>
             </div>
             <div className="d-flex justify-content-evenly">
-            <i className="fas fa-envelop fa-2x " aria-hidden="true"/>
+            <i className="fas fa-envelope fa-2x " aria-hidden="true"/>
             <p className="text-center"> aclassrestaurant@gmail.com</p>
             </div>
 

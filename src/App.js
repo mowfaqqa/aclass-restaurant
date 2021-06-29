@@ -20,7 +20,7 @@ const App = () => {
     <BrowserRouter>
     <div className="App">
       <Navbar />
-      <Route exact path='/' component={Home} />
+      <Route exact path='/aclass-restaurant' component={Home} />
       <Route path='/menu' component={Menu} />
       <Route path='/about' component={Aboutpage} />
       <Route path='/gallery' component={GalleryPage} />

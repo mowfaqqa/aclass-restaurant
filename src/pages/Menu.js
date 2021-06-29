@@ -20,6 +20,12 @@ const Menu = () => {
           <div className="container">
             <h1 className="display-3 pt-2 text-center">Our Menu</h1>
             <p classname="lead abt-menu-p ">We provide a wide array of dishes to choose from in our menu ranging from local dishes with a modern sophisticated touch to exotic dishes from other parts of the world.</p>
+            <div className="makeorder py-2">
+              To make an order for pick-up or delivery click <button type="button" class="py-1 btn btn-orange" data-bs-toggle="modal" data-bs-target="#Modal">
+                here
+            </button> 
+            </div>
+
           </div>
 
           <MenuNumbering />
@@ -35,9 +41,28 @@ const Menu = () => {
           <Route path="/9" component={Drinks2} />
           <Route path="/10" component={Shisha} />
 
-          
       </div>
-          <Footer />
+      <Footer />
+           {/* Modal  */}
+        <div className="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+          <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="ModalLabel">Phone Number</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div className="modal-body">
+                <p>you can reach us for your orders through :
+                <br/>+2348175555501
+                <br/>aclassrestaurant@gmail.com
+                </p>
+              </div>
+              <div className="modal-footer">
+                <button type="button" className="btn btn-orange" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>       
     </BrowserRouter>
   )
 }

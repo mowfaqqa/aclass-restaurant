@@ -45,13 +45,14 @@ render() {
             <input type="number"  id="no_of_guest" name="no_of_guest"/>
           </div>
           <div className="mb-3">
-            <label htmlFor="date" >Date*:</label>
-            <input type="date" name="date" id="date" />
+            <label htmlFor="date" >Date/Time*:</label>
+            <input type="datetime-local" name="date" id="date" />
           </div>
           <div className="mb-3">
             <label htmlFor="message" >Message:</label>
             <textarea  id="message" name="message" cols="60" rows="5" placeholder="Type in your message or order here "></textarea>
           </div>
+          <p className="fs-6">Table is kept for 30mins after reservation time</p>
           <button type="submit" class="btn btn-custom">Book Table</button>
         </form>
        </div>
