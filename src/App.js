@@ -1,6 +1,7 @@
 import { BrowserRouter, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import Order from './components/Order'
 import './mobile.css';
 // import Carousel from './components/Carousel'
 // import Highlight from './components/Highlight'
@@ -25,6 +26,7 @@ const App = () => {
       <Route path='/about' component={Aboutpage} />
       <Route path='/gallery' component={GalleryPage} />
       <Route path='/contact' component={Contactpage} />
+      <Route path='/order' component={Order} />
       {/* <Home /> */}
     </div>
     </BrowserRouter>

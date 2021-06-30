@@ -46,7 +46,7 @@ render() {
           </div>
           <div className="mb-3">
             <label htmlFor="date" >Date/Time*:</label>
-            <input type="datetime-local" name="date" id="date" />
+            <input type="datetime" name="date" id="date" />
           </div>
           <div className="mb-3">
             <label htmlFor="message" >Message:</label>

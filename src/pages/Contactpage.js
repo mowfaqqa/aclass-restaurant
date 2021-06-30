@@ -1,20 +1,13 @@
 import React, {Component} from 'react'
 import { BrowserRouter } from 'react-router-dom';
-import GoogleMapReact from 'google-map-react';
+import Footer from '../components/Footer'
 import  { Link } from 'react-router-dom'
 
 
-const Location = ({ text }) => <div>{text}</div>;
+
 
 class Contactpage extends Component {
-  static defaultProps = {
-    center: {
-      lat: 9.08619,
-      lng: 7.47911
-    },
-    zoom: 15
-  }; 
-
+  
 render() {
   return (
     <BrowserRouter>
@@ -33,7 +26,7 @@ render() {
                 <input type="text"  id="phonenumber" name="phonenumber" placeholder="Phone number"/>
               </div>
               <div className="form-group mb-3">
-              <textarea  id="message" name="message" cols="70" rows="5" placeholder="Type in your message... "></textarea>
+              <textarea  id="message" name="message" cols="60" rows="5" placeholder="Type in your message... "></textarea>
             </div>
             <button type="submit" class="btn btn-orange">Send</button>
             </form>
@@ -52,26 +45,14 @@ render() {
             <p className="text-center"> aclassrestaurant@gmail.com</p>
             </div>
 
-            <div className="d-flex">
-            <Link><i className="fab fa-instagram fa-2x mx-2" aria-hidden="true"></i></Link>
-            <Link><i className="fab fa-twitter fa-2x mx-2" aria-hidden="true"></i></Link>
+            <div className="d-flex justify-content-center mt-2">
+            <Link><i className="fab fa-instagram fa-2x text-orange mx-2" aria-hidden="true"></i></Link>
+            <Link><i className="fab fa-twitter fa-2x text-orange mx-2" aria-hidden="true"></i></Link>
             </div>
           </div>
         </div>
-          <div className="pt-2">
-          <GoogleMapReact
-            bootstrapURLKeys={{ key: "AIzaSyB5eSGjBZx4czMI7tmz3FpT5p31Ej2JhcQ" }}
-            defaultCenter={this.props.center}
-            defaultZoom={this.props.zoom}
-          >
-            <Location
-              lat={9.08619}
-              lng={7.47911}
-              text="Along Kashim Ibrahim way, Maitama, Abuja"
-            />
-          </GoogleMapReact>
-          </div>
       </div>
+      <Footer />
     </BrowserRouter>
   )
 }

@@ -126,7 +126,7 @@ const Burgers = () => {
 
                   <div className="menu-list d-flex justify-content-between">
                     <div>
-                      <h4 className="card-title">CHICkEN WRAP</h4>
+                      <h4 className="card-title">CHICKEN WRAP</h4>
                       <h5 className="card-subtitle mb-2 text-muted">Grilled chicken, cabbage, ketchup, mayonnaise, and seasoning wrapped in lebanese bread, served with french fries</h5>
                     </div>
                     <p className="h4">N2,200</p>

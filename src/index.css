@@ -67,6 +67,7 @@ input:focus {
 textarea{
   color: #333;
   background: rgb(250, 180, 89);
+  width: 500px;
 }
 
 .btn-custom {
@@ -85,8 +86,12 @@ opacity: 0.9;
 .btn-orange:hover{
   background: rgb(6, 11, 22);
   color: rgb(250, 180, 89);
-  }
-
+}
+.btn-5{
+  padding: 3px 10px;
+  font-size: 12px;
+  height: 25px; 
+}
 .about-img{
   margin-left: 10px;
 }
@@ -246,6 +251,4 @@ margin-right: 5px
   background: #000;
   color: rgb(235, 134, 26);
 }
-.contactpage {
-  height: 100vh;
-}
+
