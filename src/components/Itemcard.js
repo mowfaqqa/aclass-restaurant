@@ -23,7 +23,7 @@ const Itemcard = (props) => {
       </div>
 
       <div className="modal fade text-dark" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-          <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-dialog modal-lg">
             <div className="modal-content">
               <div className="modal-header">
                 <h5 className="modal-title" id="ModalLabel">Cart</h5>

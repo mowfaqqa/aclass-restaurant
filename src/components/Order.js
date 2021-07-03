@@ -26,21 +26,21 @@ const Order = () => {
         <h2 className="text-center display-6">Soup</h2>
         {data.soup.map((item2, index) => {
           return(
-          <Itemcard title={item2.title} price={item2.price} item2={item2} key={index}/>
+          <Itemcard title={item2.title} price={item2.price} item={item2} key={index}/>
           )
         })}
         {/* salad */}
         <h2 className="text-center display-6">Salad</h2>
         {data.salad.map((item3, index) => {
           return(
-          <Itemcard title={item3.title} price={item3.price} item3={item3}  key={index}/>
+          <Itemcard title={item3.title} price={item3.price} item={item3}  key={index}/>
           )
         })}
         {/* burgers */}
         <h2 className="text-center display-6">Burgers</h2>
         {data.burgers.map((item4, index) => {
           return(
-          <Itemcard title={item4.title} price={item4.price} item4={item4} key={index}/>
+          <Itemcard title={item4.title} price={item4.price} item={item4} key={index}/>
           )
         })}
         </div>
