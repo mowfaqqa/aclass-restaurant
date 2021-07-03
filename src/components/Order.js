@@ -2,9 +2,15 @@ import React from 'react'
 import Itemcard from './Itemcard.js' 
 import data from './data'
 import Footer from './Footer.js'
+import { CartProvider} from 'react-use-cart'
+
+
+
 const Order = () => {
 
   return (
+    <CartProvider>
+    
     <div className="review-bg">
       <h1>Make Your Order</h1>
       <section className="container py-4">
@@ -41,6 +47,7 @@ const Order = () => {
       </section>
       <Footer />
     </div>
+  </CartProvider>
   )
 }
 
